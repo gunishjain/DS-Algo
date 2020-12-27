@@ -1,0 +1,1 @@
+{"name":"Local: majority_two","url":"d:\\Gunish_Work\\DS ALGO\\majority_two.cpp","tests":[{"id":1606835253046,"input":"11\n1 1 2 2 3 3 4 4 4 4 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Gunish_Work\\DS ALGO\\majority_two.cpp","group":"local","local":true}
