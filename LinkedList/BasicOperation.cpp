@@ -53,18 +53,39 @@ void Print(){
     cout<<"\n";
 }
 
+void Reverse(){
+
+Node *current,*prev,*next;
+
+current=head;
+prev=NULL;
+
+while(current!=NULL){
+    next=current->next;
+    current->next=prev;
+    prev=current;
+    current=next;
+}
+head=prev;
+
+
+}
+
 int main(){
 
 head=NULL;
 
 Insert(5,1);
 Insert(8,2);
-Insert(25,1);
-Insert(45,3);
-Insert(7,4);
+Insert(25,3);
+Insert(45,4);
+//Insert(7,4);
 Print();
-Delete(3);
-Delete(1);
+//Delete(3);
+//Delete(1);
+//Print();
+Reverse();
+cout<<"Reversed List is:"<<endl;
 Print();
 
 }
